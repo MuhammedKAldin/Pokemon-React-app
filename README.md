@@ -1,3 +1,9 @@
+<h1>Pokémon Webiste, created from scratch</h1>
+# APIs Used from the PokeApi services
+- "https://pokeapi.co/api/v2/pokemon"
+- "https://pokeapi.co/api/v2/pokemon-form/"
+- 'https://pokeapi.co/api/v2/pokemon-species/
+
 # Getting The App Started
 `npm start`
 Runs the app in the development mode.\
