@@ -1,5 +1,5 @@
 # Pokémon Webiste, created from scratch </br>
-- using Javascript, React, React Components, React Hooks, React Context handling global state that can be accessed by all components from one place ``Context``.
+- using Javascript, React, React Components, React Hooks, React Context handling global state that can be accessed by all components from one place which is the react ``Context``, setup of that context is created in src/Store.js
 
 # APIs Used from the PokeApi services
 - "https://pokeapi.co/api/v2/pokemon"
