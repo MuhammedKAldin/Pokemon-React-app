@@ -74,7 +74,7 @@ set the state to pick the latest value, the current state returns old value of w
 
 # Launch Github page
 - npm install gh-pages --save-dev
-- In the package.json file, scroll down to the scripts property and add the following commands:
+- In the package.json file, scroll down to the scripts property and add the following commands: </br>
 ``
 "predeploy" : "npm run build",
 "deploy" : "gh-pages -d build",
