@@ -1,4 +1,6 @@
-<h1>Pokémon Webiste, created from scratch</h1>
+# Pokémon Webiste, created from scratch </br>
+- using Javascript, React, React Components, React Hooks, React Context handling global state that can be accessed by all components from one place ``Context``.
+
 # APIs Used from the PokeApi services
 - "https://pokeapi.co/api/v2/pokemon"
 - "https://pokeapi.co/api/v2/pokemon-form/"
