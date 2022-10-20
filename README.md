@@ -71,3 +71,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Todo:
 set the state to pick the latest value, the current state returns old value of what's supposed to be there
+
+# Launch Github page
+- npm install gh-pages --save-dev
+- In the package.json file, scroll down to the scripts property and add the following commands:
+``
+"predeploy" : "npm run build",
+"deploy" : "gh-pages -d build",
+``
