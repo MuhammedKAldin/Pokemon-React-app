@@ -47,10 +47,13 @@ export const SearchTool = () => {
     const [search, setSearch] = useContext(Context);
 
     // Sync changes of the SearchBox
-    var searchValue;
     const searchValueChange = event => {
-        // setSearch(search => event.target.value)
-        searchValue = event.target.value.toLowerCase();
+
+        const data = {
+            search: event.target.value.toLowerCase(),
+        }
+
+        setSearch(data)
     };
 
     // #1 First fetch
@@ -88,7 +91,7 @@ export const SearchTool = () => {
         const overallPokemons = await ApiCall_allPokemons();
 
         const filteredData = overallPokemons.filter((pokemon) => {
-            if (pokemon.name.includes(searchValue)) {
+            if (pokemon.name.includes(search.search)) {
                 // Storing Found match Pokemon into state
                 setPokemon({pokemon : pokemon.name})
             }

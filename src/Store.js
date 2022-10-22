@@ -3,6 +3,7 @@
 import React, {useState} from 'react'
 
 const initialState = {
+    search: "nothing yet",
     id: 0,
     name: ' ',
     type1: "--",
